@@ -17,7 +17,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-End-Book-Recommender-System.git
+https://github.com/chandan2597/End-to-End-Book-Recommender-System.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -70,7 +70,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t entbappy/stapp:latest . 
+docker build -t chandan2597/stapp:latest . 
 ```
 
 ```bash
@@ -78,7 +78,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 entbappy/stapp 
+docker run -d -p 8501:8501 chandan2597/stapp 
 ```
 
 ```bash
@@ -98,12 +98,12 @@ docker login
 ```
 
 ```bash
-docker push entbappy/stapp:latest 
+docker push chandan2597/stapp:latest 
 ```
 
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi chandan2597/stapp:latest
 ```
 
 ```bash
-docker pull entbappy/stapp
+docker pull chandan2597/stapp
