@@ -84,6 +84,7 @@ docker run -d -p 8501:8501 chandan2597/bookapp
 ```bash
 docker ps  
 ```
+
 ### To stop docker container
 
 ```bash
@@ -100,7 +101,7 @@ docker rm $(docker ps -a -q)
 
 ```bash
 docker login 
-``
+```
 
 ```bash
 docker push chandan2597/bookapp:latest 
