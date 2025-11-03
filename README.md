@@ -78,7 +78,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 chandan2597/stapp 
+docker run -d -p 8501:8501 chandan2597/bookapp 
 ```
 
 ```bash
@@ -98,12 +98,12 @@ docker login
 ```
 
 ```bash
-docker push chandan2597/stapp:latest 
+docker push chandan2597/bookapp:latest 
 ```
 
 ```bash
-docker rmi chandan2597/stapp:latest
+docker rmi chandan2597/bookapp:latest
 ```
 
 ```bash
-docker pull chandan2597/stapp
+docker pull chandan2597/bookapp
