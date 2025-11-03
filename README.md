@@ -70,7 +70,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t chandan2597/stapp:latest . 
+docker build -t chandan2597/bookapp:latest . 
 ```
 
 ```bash
