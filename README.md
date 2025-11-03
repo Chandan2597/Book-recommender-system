@@ -84,26 +84,35 @@ docker run -d -p 8501:8501 chandan2597/bookapp
 ```bash
 docker ps  
 ```
+### To stop docker container
 
 ```bash
 docker stop container_id
 ```
 
+### To remove docker container
+
 ```bash
 docker rm $(docker ps -a -q)
 ```
 
+### Push docker image to docker hub 
+
 ```bash
 docker login 
-```
+``
 
 ```bash
 docker push chandan2597/bookapp:latest 
 ```
 
+### Remove docker image
+
 ```bash
 docker rmi chandan2597/bookapp:latest
 ```
+
+### Pull docker image
 
 ```bash
 docker pull chandan2597/bookapp
